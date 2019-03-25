@@ -10,8 +10,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 def main():
     """ TESTs the functions in this module (by calling them). """
     #double_a_float()
-    #print_an_integer_many_times()
-    #print_an_integer_many_times_on_one_row()
+    print_an_integer_many_times()
+    print_an_integer_many_times_on_one_row()
     input_it_all()
 
 
@@ -67,7 +67,8 @@ def print_an_integer_many_times():
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
     integer = int(input('Pick an integer: '))
-    print(integer * 2)
+    for k in range(integer):
+        print(integer * 2)
 
 
 def print_an_integer_many_times_on_one_row():
