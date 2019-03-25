@@ -129,7 +129,7 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # Done: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
     import math
