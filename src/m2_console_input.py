@@ -11,7 +11,7 @@ def main():
     """ TESTs the functions in this module (by calling them). """
     #double_a_float()
     #print_an_integer_many_times()
-    print_an_integer_many_times_on_one_row()
+    #print_an_integer_many_times_on_one_row()
     input_it_all()
 
 
@@ -129,9 +129,20 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    import math
+
+    point = float(input('Pick floating point: '))
+    integer = int(input('Pick an integer: '))
+    string = input('Enter your string: ')
+    for k in range(integer):
+        print(math.sqrt(point))
+
+    for k in range(integer):
+        print(string)
+
 
 
 # -----------------------------------------------------------------------------
